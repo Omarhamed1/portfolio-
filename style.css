@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 header {
   display: flex;
-  height: 70px;
+  height: 60px;
   position: fixed;
   border-radius: 20px;
   width: 100%;
@@ -9,18 +9,23 @@ header {
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 140px;
 }
 body {
   background-color: #2d2e32;
+
 }
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+.navbar{
+  background-color: #f8f9fa;
+}
 nav {
   width: 100%;
-  height: 135px;
+  height: fit-content;
 }
 .dropdown-menu {
   background-color: #f8f9fa;
@@ -34,7 +39,7 @@ nav {
   background-color: #f8f9fa;
   padding-top: 10px;
   padding-bottom: 0px;
-  font-size: 30px;
+  font-size: 25px;
 }
 .nav-link dropdown-toggle {
   width: 100%;
@@ -150,12 +155,7 @@ span {
   padding-top: 5px;
   padding-bottom: 0px;
 }
-.breaks {
-  font-size: 40px;
-  margin-left: 30px;
-  padding-bottom: 5px;
-  opacity: 50%;
-}
+
 .Main {
   display: flex;
   align-items: center;
@@ -172,6 +172,8 @@ span {
   background-color: #f8f9fa;
 }
 .Skills {
+
+  
   justify-content: center;
   display: flex;
 }
@@ -282,9 +284,6 @@ img {
 }
 .form-control {
   border-radius: 50px;
-  display: flex;
-  align-self: center;
-  justify-content: center;
   width: 500px;
 }
 .footernv a {
